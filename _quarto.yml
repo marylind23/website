@@ -1,0 +1,30 @@
+project:
+  type: website
+
+website:
+  title: "Mary Lind, M.A."
+  navbar:
+    background: primary
+    search: true
+    left:
+      - text: "Home"
+        href: index.qmd
+      - text: "Research"
+        href: research.qmd
+      - text: "Teaching"
+        href: teaching.qmd
+      - text: "Other publications"
+        href: other.qmd
+      - text: "CV"
+        href: cv.qmd
+    right:
+      - icon: linkedin
+        href: https://www.linkedin.com/in/marylind23
+        target: _blank
+
+format:
+  html:
+    theme: minty
+
+editor: visual
+
